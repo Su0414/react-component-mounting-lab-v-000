@@ -1,6 +1,6 @@
 import React from 'react'
 class App extends React.Component {
-  componentDidMount() = {this.handleAddTimer}
+  componentDidMount(){this.handleAddTimer}
   render() {
     return (
       <div>
