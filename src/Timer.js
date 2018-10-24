@@ -11,7 +11,7 @@ class Timer extends Component {
   componentDidMount() {
     this.interval = setInterval(this.clockTick)
   }
-  
+
   componentWillUnmount(){
     clearInterval(this.interval);
   }
